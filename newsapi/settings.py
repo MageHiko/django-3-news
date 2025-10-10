@@ -46,7 +46,7 @@ MIDDLEWARE = [
 ]
 
 CORSE_ALLOWED_ORIGINS = [
-    "https://bakueduaz.github.io"
+    "https://magehiko.github.io/"
 ]
 
 ROOT_URLCONF = "newsapi.urls"
