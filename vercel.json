@@ -1,15 +1,15 @@
 {
-    "version": 2,
-    "builds": [
+    "version":2,
+    "builds":[
         {
             "src":"newsapi/wsgi.py",
-            "use":"vercel/python"
+            "use":"@vercel/python"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"newsapi/wsgi.py"            
+            "dest":"newsapi/wsgi.py"
         }
     ]
 }
