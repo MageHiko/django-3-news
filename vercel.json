@@ -3,7 +3,7 @@
     "builds": [
         {
             "src":"newsapi/wsgi.py",
-            "use":"versel/python"
+            "use":"vercel/python"
         }
     ],
     "routes":[
